@@ -6,10 +6,11 @@ import { StrengthsDetails } from '../components/StrengthsDetails';
 
 export default function Home() {
   return (
-    <main className="container">
+    <main className="container p-4">
       <ContactDetails />
-      <div>
-        <h4>Summary</h4>
+      <div className='mb-7'>
+        <h4 className='font-bold text-xl'>Summary</h4>
+        <hr className="border-gray-900 mb-2"/>
         <p>
           Software Engineer with 4+ years of experience in Full Stack Web Development with ASP.NET Core, React JS and
           Cloud technologies like Azure.{' '}

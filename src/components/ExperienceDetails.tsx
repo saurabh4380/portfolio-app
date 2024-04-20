@@ -1,13 +1,26 @@
+import { GoOrganization } from 'react-icons/go';
+import { MdOutlineCalendarMonth } from 'react-icons/md';
+
 export const ExperienceDetails = () => {
   return (
-    <div>
-      <h4>Work Experience</h4>
+    <div className='mb-7'>
+      <h4 className="font-bold text-xl">Work Experience</h4>
+      <hr className="border-gray-900 mb-2" />
       <div className="mb-5">
-        <h5>Team Lead</h5>
-        <p>April 2023 to Present</p>
-        <p>InfoZest Digital Solutions, Navi Mumbai </p>
+        {/* Team Lead */}
+        <div className="flex justify-between">
+          <h5 className="font-bold text-lg">Team Lead</h5>
+          <div className="flex items-center gap-1">
+            <MdOutlineCalendarMonth />
+            <p>April 2023 - Present</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-1">
+          <GoOrganization />
+          <p>InfoZest Digital Solutions, Navi Mumbai </p>
+        </div>
 
-        <ul>
+        <ul className="mt-3 mb-2 list-disc  flex flex-col gap-0.5 pl-8">
           <li>
             Leading a team of developers to create and apply a scalable architecture using ASP.NET Core and Next JS
           </li>
@@ -29,16 +42,26 @@ export const ExperienceDetails = () => {
           <li>Helped in migrating ASP.NET APIs from the legacy ASP.NET Framework (v4.7.2) to ASP.NET Core (v8.0)</li>
         </ul>
         <p>
-          <span>Tech Used:</span> ASP.NET Core, React JS, Next JS, Redux, Tailwind CSS, SQL Server, Azure CI/CD, Azure
-          AD B2C{' '}
+          <span className="font-semibold">Tech Used:</span> ASP.NET Core, React JS, Next JS, Redux, Tailwind CSS, SQL
+          Server, Azure CI/CD, Azure AD B2C{' '}
         </p>
       </div>
-      <div className="mb-5">
-        <h5>Module Lead</h5>
-        <p>April 2022 - May 2023</p>
-        <p>InfoZest Digital Solutions, Navi Mumbai </p>
 
-        <ul>
+      <div className="mb-5">
+        {/* Module Lead */}
+        <div className="flex justify-between">
+          <h5 className="font-bold text-lg">Module Lead</h5>
+          <div className="flex items-center gap-1">
+            <MdOutlineCalendarMonth />
+            <p>April 2022 - May 2023</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-1">
+          <GoOrganization />
+          <p>InfoZest Digital Solutions, Navi Mumbai </p>
+        </div>
+
+        <ul className="mt-3 mb-2 list-disc  flex flex-col gap-0.5 pl-8">
           <li>
             Led a project to migrate Internal Business Process Tool from Jira Service Desk to HubSpot Service Hub.
             Worked with HubSpot CRM Tool to create Workflows and HubSpot Custom Code using JavaScript as programming
@@ -61,15 +84,24 @@ export const ExperienceDetails = () => {
           </li>
         </ul>
         <p>
-          <span>Tech Used:</span> ASP.NET Core, HubSpot, Node JS, SQL Server{' '}
+          <span className="font-semibold">Tech Used:</span> ASP.NET Core, HubSpot, Node JS, SQL Server{' '}
         </p>
       </div>
       <div className="mb-5">
-        <h5>Junior Software Engineer</h5>
-        <p>March 2020 - April 2022</p>
-        <p>InfoZest Digital Solutions, Navi Mumbai </p>
+        {/* Junior Software Engineer */}
+        <div className="flex justify-between">
+          <h5 className="font-bold text-lg">Junior Software Engineer</h5>
+          <div className="flex items-center gap-1">
+            <MdOutlineCalendarMonth />
+            <p>March 2020 - April 2022</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-1">
+          <GoOrganization />
+          <p>InfoZest Digital Solutions, Navi Mumbai </p>
+        </div>
 
-        <ul>
+        <ul className="mt-3 mb-2 list-disc  flex flex-col gap-0.5 pl-8">
           <li>Worked on revamping the Billing Section of the Web App and integrated with a new Payment Provider.</li>
           <li>
             Worked on API changes to improve the calculation of the Sales Tax on the website by integrating with a
@@ -94,7 +126,8 @@ export const ExperienceDetails = () => {
           </li>
         </ul>
         <p>
-          <span>Tech Used:</span> ASP.NET Web API2, EF Core, SQL Server, Ember JS, HTML, CSS, jQuery, Jira ScriptRunner{' '}
+          <span className="font-semibold">Tech Used:</span> ASP.NET Web API2, EF Core, SQL Server, Ember JS, HTML, CSS,
+          jQuery, Jira ScriptRunner{' '}
         </p>
       </div>
     </div>
