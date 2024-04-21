@@ -1,9 +1,9 @@
-import { GoOrganization } from 'react-icons/go';
-import { MdOutlineCalendarMonth } from 'react-icons/md';
+import { GoOrganization } from "react-icons/go";
+import { MdOutlineCalendarMonth } from "react-icons/md";
 
 export const ExperienceDetails = () => {
   return (
-    <div className='mb-7'>
+    <div className="mb-7">
       <h4 className="font-bold text-xl">Work Experience</h4>
       <hr className="border-gray-900 mb-2" />
       <div className="mb-5">
@@ -43,7 +43,7 @@ export const ExperienceDetails = () => {
         </ul>
         <p>
           <span className="font-semibold">Tech Used:</span> ASP.NET Core, React JS, Next JS, Redux, Tailwind CSS, SQL
-          Server, Azure CI/CD, Azure AD B2C{' '}
+          Server, Azure CI/CD, Azure AD B2C{" "}
         </p>
       </div>
 
@@ -68,23 +68,23 @@ export const ExperienceDetails = () => {
             language
           </li>
           <li>
-            {' '}
+            {" "}
             Designed and developed a WEB API application to integrate the existing suite of applications with HubSpot
             CRM.
           </li>
           <li>
-            {' '}
+            {" "}
             Developed standalone API applications to integrate with third party APIs to facilitate the business process
             by minimizing the manual steps/efforts.
           </li>
           <li>
-            {' '}
+            {" "}
             Rewrote an existing ASP.NET Core app using best practices and reduced the performance bottlenecks. This
             rewrite helped to increase the API response speed by 33%.
           </li>
         </ul>
         <p>
-          <span className="font-semibold">Tech Used:</span> ASP.NET Core, HubSpot, Node JS, SQL Server{' '}
+          <span className="font-semibold">Tech Used:</span> ASP.NET Core, HubSpot, Node JS, SQL Server{" "}
         </p>
       </div>
       <div className="mb-5">
@@ -127,7 +127,7 @@ export const ExperienceDetails = () => {
         </ul>
         <p>
           <span className="font-semibold">Tech Used:</span> ASP.NET Web API2, EF Core, SQL Server, Ember JS, HTML, CSS,
-          jQuery, Jira ScriptRunner{' '}
+          jQuery, Jira ScriptRunner{" "}
         </p>
       </div>
     </div>
