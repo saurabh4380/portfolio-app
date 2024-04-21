@@ -13,9 +13,10 @@ export default function Home() {
         <hr className="border-gray-900 mb-2" />
         <p>
           Software Engineer with 4+ years of experience in Full Stack Web Development with ASP.NET Core, React JS and
-          Cloud technologies like Azure.{" "}
+          Cloud technologies like Azure.
         </p>
       </div>
+
       <ExperienceDetails />
 
       <SkillsDetails />
